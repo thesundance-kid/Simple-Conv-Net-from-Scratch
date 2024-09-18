@@ -39,24 +39,6 @@ The model was trained on the full MNIST dataset (6000 images). Here are some per
 Test Accuracy: ~93.5%
 The notebook provides a more detailed view of the training process and evaluation of the model's performance.
 
-How to Use
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Install the required dependencies:
-
-bash
-Copy code
-pip install numpy
-Run the Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook test.ipynb
-Follow the steps in the notebook to train and test the CNN on the MNIST dataset.
 
 MNIST Dataset
 The MNIST dataset must be downloaded separately if you haven't already. You can find the dataset here: https://www.kaggle.com/datasets/hojjatk/mnist-dataset
