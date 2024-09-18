@@ -9,12 +9,19 @@ ConvNet_model.py: This file contains the code for building the CNN model. It def
 ConvNet_functions.py: Contains the helper functions used in the model, such as:
 
 TwoDim_Conv_layer: Applies a 2D convolution to the input image using the provided filters (kernels).
+
 Relu: Implements the ReLU activation function.
+
 make_params: Initializes the parameters for the model.
+
 forward_prop: Conducts forward propagation through the network.
+
 softmax: Implements the softmax function for the output layer.
+
 cross_entropy_loss: Calculates the cross-entropy loss.
+
 backprop: Handles backpropagation for all layers, and update the weights based on the loss.
+
 test.ipynb: This Jupyter Notebook demonstrates how to load the MNIST dataset, preprocess the images and labels, and train the CNN model using the functions provided in the other files. The notebook also includes an accuracy assessment on the test data.
 
 **Model Description**
