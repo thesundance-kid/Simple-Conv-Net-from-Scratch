@@ -4,27 +4,22 @@
 This repository contains a simple implementation of a Convolutional Neural Network (CNN) in Python (using only numpy), tested to classify handwritten digits from the MNIST dataset. The CNN model consists of one convolutional layer and a softmax output layer, making it ideal for  simple projects.
 
 **Project Structure**
-ConvNet_model.py: This file contains the code for building the CNN model. It defines the model structure, including the convolutional layer, ReLU activation, and the softmax layer.
 
+ConvNet_model.py: This file contains the code for building the CNN model. It defines the model structure, including the convolutional layer, ReLU activation, and the softmax layer.
 ConvNet_functions.py: Contains the helper functions used in the model, such as:
 
 TwoDim_Conv_layer: Applies a 2D convolution to the input image using the provided filters (kernels).
-
 Relu: Implements the ReLU activation function.
-
 make_params: Initializes the parameters for the model.
-
 forward_prop: Conducts forward propagation through the network.
-
 softmax: Implements the softmax function for the output layer.
-
 cross_entropy_loss: Calculates the cross-entropy loss.
-
 backprop: Handles backpropagation for all layers, and update the weights based on the loss.
 
 test.ipynb: This Jupyter Notebook demonstrates how to load the MNIST dataset, preprocess the images and labels, and train the CNN model using the functions provided in the other files. The notebook also includes an accuracy assessment on the test data.
 
 **Model Description**
+
 The CNN implemented in this project is straightforward and consists of:
 
 Convolutional Layer: A 2D convolution is applied to the input images using a small kernel. This layer extracts features from the images such as edges and textures.
